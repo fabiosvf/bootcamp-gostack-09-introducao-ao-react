@@ -21,8 +21,6 @@ class TechList extends Component {
       techs: [...this.state.techs, this.state.newTech],
       newTech: ''
     });
-
-    console.log(this.state.newTech);
   }
 
   handleDelete = (tech) => {
